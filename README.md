@@ -2,10 +2,21 @@
 
 ## Project setup
 ```
-npm install
+1 . Check Exr driver installation
+https://github.com/seslabSJU/ModbusIPE/blob/main/doc/%EC%86%94%EB%9D%BC%EC%82%AC%EC%9D%B4%EB%8B%88%EC%A7%80_%EB%A7%A4%EB%89%B4%EC%96%BC.pdf
+Follow this document “4-3 Modbus driver install”
+2. package install
+Git clone https://github.com/seslabSJU/ModbusIPE.git
+npm install in ModbusIPE folder
+3. create resource
+Create resource(AE and CNT) before running project
+Refer to pages 5,6 for the resource tree
+4. set config.js
+Fill this area to your environment
 ```
 
-### Note
+### Todo
 ```
-CIN으로 데이터만 만들어서 넣고있으므로 CNT는 직접 다 만들어주어야함
+Update Bulb on/off function
+Create AE and CNT resource automation
 ```
